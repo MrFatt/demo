@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo
+  description: demo
+  annotations: 
+    github.com/project-slug: MrFatt/demo
+    backstage.io/github-actions-id: MrFatt/demo
+spec:
+  type: service
+  lifecycle: experimental
+  owner: MrFatt
